@@ -12,7 +12,7 @@ public class ReadFile extends Thread{
         this.vec = vector;
     }
 
-    public void run(){
+    public void run(){ //comment
         try {
             File myObj = new File(filename);
             Scanner myReader = new Scanner(myObj);
